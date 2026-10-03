@@ -1530,3 +1530,43 @@ footer span:last-child {
     width: 100%;
   }
 }
+
+/* Team panel (Clerk-backed) */
+.team-note {
+  padding: 14px;
+  font-size: 12px;
+  color: #64748b;
+}
+
+.invite-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.invite-form input,
+.invite-form select {
+  height: 27px;
+  border: 1px solid #9ca3af;
+  padding: 0 8px;
+  font-size: 11px;
+  outline: 0;
+  background: #fff;
+}
+
+.invite-form input {
+  width: 220px;
+}
+
+.invite-feedback {
+  flex-basis: 100%;
+  margin: 0;
+  font-size: 11px;
+  color: #4a6741;
+}
+
+.invite-feedback.is-error {
+  color: #b45309;
+}
